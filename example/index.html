@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Loading Spinner - Spin.js</title>
+    <link rel="stylesheet" href="loading_spinner_example.css">
+    <script src="jquery-1.9.1.min.js"></script>
+    <script src="../jquery.spin.chameleon.js"></script>
+  </head>
+  <body>
+    <div class="m-container full m-loading"></div>
+    <div class="m-container wide m-loading pull-left"></div>
+    <div class="m-container medium m-loading pull-left"></div>
+    <div class="m-container tall m-loading pull-right"></div>
+    <div class="m-container large m-loading pull-left"></div>
+    <div class="m-container small m-loading pull-left"></div>
+    <div class="m-container smaller m-loading pull-left"></div>
+    <div class="m-container tiny m-loading pull-left"></div>
+    <div class="m-container noheight m-loading pull-left"></div>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        if (jQuery().chameleon)
+          $('.m-container').chameleon();
+      });
+    </script>
+  </body>
+</html>
