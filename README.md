@@ -4,7 +4,7 @@ chameleon
 A simple loading spinner that responds to the size and color of its container.
 
 Requires jQuery.
-Bundled with [Spin.js](http://fgnass.github.io/spin.js/) & color-js.
+Bundled with [Spin.js](http://fgnass.github.io/spin.js/) & [color-js](https://github.com/harthur/color/tree/master).
 
 Usage
 ----------
